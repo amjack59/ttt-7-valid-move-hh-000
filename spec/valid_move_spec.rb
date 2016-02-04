@@ -1,7 +1,7 @@
 require_relative "../lib/valid_move.rb"
 
 describe './lib/valid_move.rb' do
-  # Needs more specs
+  # method to validate valid moves in tic tac toe checking for 1-9 pos and available spot in array
 
   it 'returns true for a valid position on an empty board' do
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
